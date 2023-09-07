@@ -1,0 +1,198 @@
+@import url('https://fonts.google.com/specimen/Karla');
+@media screen and (max-width:1440px) and (min-width:376px){
+body{
+    background-color: hsl(204, 43%, 93%);
+    width:100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex
+}
+.whole{
+    width:600px;
+    height: 500px;
+    margin:auto;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 44% 56%; 
+    overflow: hidden;
+    font-family:"Karla",sans-serif;
+}
+.top{
+    width:100%;
+    height: 100%; 
+}
+.top h2{
+    color:hsl(179, 62%, 43%);
+    margin-top: 45px;
+}
+.top h3{
+    color:hsl(71, 73%, 54%);
+}
+.top p{
+    text-align: left;
+    color:  hsl(0, 0%, 61%);
+    font-weight: 500;
+}
+.common{
+    margin-left:45px;
+}
+.bottom{
+    display: grid;
+    width:100%;
+    height: 100%; 
+    grid-template-columns: 50%;
+    grid-template-rows: 100%; 
+    position: relative;
+}
+.bottomleft{
+    width:100%;
+    height: 100%;
+    background-color: hsl(179, 62%, 43%);
+    grid-column: 1/2;
+    color: white;
+}
+.bottomleft h3{
+    margin-top: 42px;
+}
+.bottomright{
+    width:100%;
+    height: 100%;
+    background-color: hsla(179, 62%, 43%,0.8);
+    grid-column: 2/3;
+    color:  hsl(204, 43%, 93%);
+}
+.bottomright p:nth-child(1){
+    margin-top: 45px;
+}
+.bottomright p:nth-child(2){
+    font-size: 13px;
+    line-height: 22px;
+}
+.sign{
+    background-color:hsl(71, 73%, 54%);
+    width:200px;
+    height: 40px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    margin-top: 30px;
+}
+#s{
+    font-size: 32px;
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#ss{
+    display: inline-block;
+}
+#br{
+    font-weight: 700;
+}
+}
+@media screen and (max-width:375px){
+body{
+    background-color: hsl(204, 43%, 93%);
+    width:100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex
+}
+.whole{
+    width:320px;
+    height: 680px;
+    margin:auto;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 40% 60%; 
+    overflow: hidden;
+    font-family:"Karla",sans-serif;
+}
+.top{
+    width:100%;
+    height: 100%; 
+}
+.common{
+    margin-left: 20px;
+}
+.top h2{
+    color:hsl(179, 62%, 43%);
+    margin-top: 45px;
+    font-size: 20px;
+}
+.top h3{
+    color:hsl(71, 73%, 54%);
+    font-size: 18px;
+}
+.top p{
+    text-align: left;
+    color:  hsl(0, 0%, 61%);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    margin-right: 20px;
+}
+.bottom{
+    display: grid;
+    width:100%;
+    height: 100%; 
+    grid-template-columns: 100%;
+    grid-template-rows: 50%; 
+    position: relative;
+}
+.bottomleft{
+    width:100%;
+    height: 100%;
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+}
+.bottomright{
+    width:100%;
+    height: 100%;
+    background-color: hsla(179, 62%, 43%,0.8);
+    color:  hsl(204, 43%, 93%);
+}
+.bottomright p:nth-child(1){
+    margin-top: 20px;
+}
+.bottomright p:nth-child(2){
+    font-size: 12px;
+    line-height: 19px;
+    margin-top: 6px;
+}
+.sign{
+    background-color:hsl(71, 73%, 54%);
+    width:82%;
+    height: 40px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    margin-top: 10px;
+}
+#s{
+    font-size: 32px;
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#ss{
+    display: inline-block;
+}
+#br{
+    font-weight: 700;
+}
+}
