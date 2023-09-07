@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/vtejas025/single-price-grid-component
+- Live Site URL: https://vtejas025.github.io/single-price-grid-component/single-price-grid-component.html
 
 ## My process
 
@@ -37,7 +37,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - https://vtejas025.github.io/single-price-grid-component/single-price-grid-component.html
+- Frontend Mentor - https://www.frontendmentor.io/profile/tejas25000
 
 **Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
