@@ -1,5 +1,5 @@
 @import url('https://fonts.google.com/specimen/Karla');
-@media screen and (max-width:1440px) and (min-width:376px){
+@media screen and (max-width:1440px) and (min-width:601px){
 body{
     background-color: hsl(204, 43%, 93%);
     width:100vw;
@@ -97,7 +97,7 @@ body{
     font-weight: 700;
 }
 }
-@media screen and (max-width:375px){
+@media screen and (min-width:375px) and (max-width:600px) {
 body{
     background-color: hsl(204, 43%, 93%);
     width:100vw;
